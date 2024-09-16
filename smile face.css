@@ -1,0 +1,49 @@
+#outer {
+  height: 400px;
+  width: 400px;
+  background-color: grey;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: solid black;
+}
+
+#eyeleft {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+
+#eyeright {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 260px;
+}
+
+#mouth {
+  height: 10px;
+  width: 180px;
+  background-color: brown;
+  border-radius: 0 0 20% 20%;
+  position: absolute;
+  top: 240px;
+  left: 120px;
+  transition: height 4s ease-in 0.2s;
+}
+
+#mouth:hover {
+  height: 100px;
+  width: 180px;
+  background-color: brown;
+  border-radius: 0 0 20% 20%;
+  position: absolute;
+  top: 240px;
+  left: 120px;
+}

@@ -1,0 +1,12 @@
+div {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  margin-top: 20px;
+  transition: margin-top 3s ease-in-out 1s;
+  opacity: 0.3;
+}
+
+div:hover {
+  margin-top: 500px;
+}

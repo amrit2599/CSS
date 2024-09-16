@@ -1,0 +1,11 @@
+div {
+  height: 400px;
+  width: 400px;
+  border: black solid 4px;
+  background-image: url("123.jpg");
+  background-size: cover;
+}
+
+div:hover {
+  box-shadow: 20px 20px 100px rgb(0, 0, 0);
+}
